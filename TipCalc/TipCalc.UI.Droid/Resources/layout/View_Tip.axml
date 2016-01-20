@@ -46,4 +46,9 @@
         android:textSize="24dp"
         android:gravity="center"
         local:MvxBind="Text Tip" />
+    <Button
+        android:id="@+id/btnTest"
+        android:text="test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 </LinearLayout>
