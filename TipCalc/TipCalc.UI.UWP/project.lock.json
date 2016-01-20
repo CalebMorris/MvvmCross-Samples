@@ -11642,7 +11642,7 @@
       ]
     },
     "Microsoft.ApplicationInsights.WindowsApps/1.0.0": {
-      "sha512": "NvBQnFeiFd0O1QdBz06UGApD7zn7ztVi7qO18IsM3EjiXRNgfrEBXB+azNm8XqLY8xGFAqh3HAuSd/wHZMe0XA==",
+      "sha512": "fNCAjIwvbTV+G0dT14bgM5tptsqeSaKQaCrlq7QknOq1Xdm8ZmgsDYddMgXkvykyKLjWyU6fKuOpj6fsQJy+wQ==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",
@@ -12350,7 +12350,7 @@
       ]
     },
     "MvvmCross.Platform/4.0.0-beta8": {
-      "sha512": "xqdwYHnTJFnAPdt2n2Kyw+aJkHt2S5q6kic6J1k9yVP+z2SI4Styp1x91+QN7Yg/ALFhEvhTc8EkARaghNyZfw==",
+      "sha512": "mMDRqDaOjb87DdgKWaGEPC5OeeYjXklIVZNmpEJCPD1aA1B5Jba8jAvV4Hqjk/eRPJ6JDBrS8/z9bfbw+foGrw==",
       "type": "Package",
       "files": [
         "[Content_Types].xml",

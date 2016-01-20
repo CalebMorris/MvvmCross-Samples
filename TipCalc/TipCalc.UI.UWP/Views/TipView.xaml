@@ -20,6 +20,9 @@
                 Maximum="100" />
             <TextBlock Text="Tip" />
             <TextBlock Text="{Binding Tip}" />
+            <Button Name="TestButton" Width="100" Height="60" Command="{Binding ButtonPressed}">
+                <TextBlock Text="Test" />
+            </Button>
         </StackPanel>
     </Grid>
 </views:MvxWindowsPage>

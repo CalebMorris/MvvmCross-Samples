@@ -1,6 +1,7 @@
 ﻿
 
 using MvvmCross.Core.ViewModels;
+using System.Windows.Input;
 using TipCalc.Core.Services;
 
 namespace TipCalc.Core.ViewModels
@@ -12,6 +13,8 @@ namespace TipCalc.Core.ViewModels
         public TipViewModel(ICalculation calculation)
         {
             _calculation = calculation;
+
+            ShowViewModel<TestViewModel>();
         }
 
         public override void Start()
@@ -63,6 +66,16 @@ namespace TipCalc.Core.ViewModels
         void Recalcuate()
         {
             Tip = _calculation.TipAmount(SubTotal, Generosity);
+        }
+
+        IMvxCommand _buttonPressed;
+        public IMvxCommand ButtonPressed {
+            get { return _buttonPressed ?? (_buttonPressed = new MvxCommand(ExecuteButtonPressed)); }
+        }
+
+        public void ExecuteButtonPressed()
+        {
+            ShowViewModel<TestViewModel>();
         }
     }
 }
